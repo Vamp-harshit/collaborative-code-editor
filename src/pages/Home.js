@@ -50,7 +50,7 @@ const Home = () => {
                         placeholder="ROOM ID"
                         onChange={(e) => setRoomId(e.target.value)}
                         value={roomId}
-                       onKeyUp={handleInputEnter}
+                        onKeyUp={handleInputEnter}
                     />
                     <input
                         type="text"
@@ -58,7 +58,7 @@ const Home = () => {
                         placeholder="USERNAME"
                         onChange={(e) => setUsername(e.target.value)}
                         value={username}
-                      onKeyUp={handleInputEnter}
+                        onKeyUp={handleInputEnter}
                     />
                     <button className="btn joinBtn" onClick={joinRoom}>
                         Join
@@ -76,17 +76,13 @@ const Home = () => {
                 </div>
             </div>
             <footer>
-            <h4>
-          Built with 💛 by &nbsp; {"  "}
-          <a href="https://github.com/vishalsinghdhami">Vishal</a>
-        </h4>
-
-
-
+                <h4>
+                    Built with 💛 &nbsp; by &nbsp;
+                    <a href="https://github.com/vamp-harshit">Harshit & Anurag</a>
+                </h4>
             </footer>
         </div>
     );
 };
 
 export default Home;
-

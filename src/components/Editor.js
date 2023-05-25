@@ -140,8 +140,8 @@ const clearError=()=>{
           <h4>Input:</h4>
           <div className="input-box">
             <textarea id="code-inp" 
-            // onChange=
-            //   {(e) => setUserInput(e.target.value)}
+             onChange=
+               {(e) => setUserInput(e.target.value)}
             >
             </textarea>
           </div>
